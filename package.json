@@ -1,0 +1,31 @@
+{
+  "name": "quicksuitetrading-movie-watch-services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/pruebas-tecnicas-rag/quicksuitetrading-movie-watch-services.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/pruebas-tecnicas-rag/quicksuitetrading-movie-watch-services/issues"
+  },
+  "homepage": "https://gitlab.com/pruebas-tecnicas-rag/quicksuitetrading-movie-watch-services#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.2"
+  }
+}
